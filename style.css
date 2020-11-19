@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d294e;
+}
+
+.logo {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #506c87;
+}
+
+.helth-box {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    top: 12%;
+    left: 15%;
+}
+
+.helth-meter {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px;
+    background-color: #1d294e;
+    border: 9px solid;
+    border-color: #23d3ff;
+}
+
+.helth-meter h1 {
+    position: relative;
+    margin-left: 62px;
+    margin-top: 95px;
+    font-weight: normal;
+    color: #85cfe2;
+}
+
+.helth-meter h2 {
+    display: none;
+    position: relative;
+    margin-left: 61px;
+    margin-top: 85px;
+    font-weight: normal;
+    font-size: 50px;
+    color: #85cfe2;
+}
+
+.temp-box {
+    position: fixed;
+    width: 150px;
+    height: 200px;
+    top: 60%;
+    left: 4%;
+}
+
+.temp-meter {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+    background-color: #1d294e;
+    border: 5px solid;
+    border-color: #23d3ff;
+}
+
+.temp-meter h1 {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 35px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #85cfe2;
+}
+
+.temp-meter h2 {
+    position: relative;
+    margin-left: 6px;
+    margin-top: 60px;
+    font-weight: normal;
+    font-size: small;
+    color: #85cfe2;
+}
+
+.humidity-box {
+    position: fixed;
+    width: 150px;
+    height: 200px;
+    top: 60%;
+    left: 36%;
+}
+
+.humidity-meter {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+    background-color: #1d294e;
+    border: 5px solid;
+    border-color: #23d3ff;
+}
+
+.humidity-meter h1 {
+    position: relative;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #85cfe2;
+}
+
+.humidity-meter h2 {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-weight: normal;
+    font-size: small;
+    color: #85cfe2;
+}
+
+.moisture-box {
+    position: fixed;
+    width: 150px;
+    height: 200px;
+    top: 60%;
+    left: 68%;
+}
+
+.moisture-meter {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+    background-color: #1d294e;
+    border: 5px solid;
+    border-color: #23d3ff;
+}
+
+.moisture-meter h1 {
+    position: relative;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #85cfe2;
+}
+
+.moisture-meter h2 {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-weight: normal;
+    font-size: small;
+    color: #85cfe2;
+}
+
+.btn-box {
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    top: 86%;
+    left: 8%;
+}
+
+.btn-1 {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #23d3ff;
+}
+
+.btn-1 h1 {
+    position: relative;
+    margin-left: 90px;
+    line-height: 48px;
+    font-weight: 20px;
+    font-size: 20px;
+    color: #506c87;
+}
